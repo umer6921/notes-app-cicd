@@ -14,4 +14,4 @@ This project is deployed using a Jenkins declarative pipeline. Whenever changes 
 This file contains the instructions that are required to run the project.
 
 ## Docker-compose
-It build the image through Dockerfile and run the container at port 8000
+It builds the image through Dockerfile and run the container at port 8000
