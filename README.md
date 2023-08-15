@@ -6,25 +6,12 @@ This is a simple notes app built with React and Django.
 2. Node.js
 3. React
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
 
-2. Build the app
-```
-docker build -t notes-app .
-```
+##About
+This project is deployed using a Jenkins declarative pipeline. Whenever changes are made to the code, the pipeline automatically builds the latest code and deploys it to the production environment.
 
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
+##Dockerfile
+This file contains the instructions that are required to run the project.
 
-## Nginx
-
-Install Nginx reverse proxy to make this application available
-
-`sudo apt-get update`
-`sudo apt install nginx`
+##Docker-compose
+This build the image through Dockerfile and run the container at port 8000
